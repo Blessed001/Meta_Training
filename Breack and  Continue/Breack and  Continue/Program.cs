@@ -17,7 +17,7 @@ namespace Breack_and__Continue
                 Console.WriteLine(i);
             }
             Console.WriteLine("=====================================================");
-            //Continue cicle
+            //Continue
             for (int i = 0; i < n; i++)
             {
                 if (i == 7)
@@ -25,6 +25,19 @@ namespace Breack_and__Continue
                     continue;
                 }
                 Console.WriteLine(i);
+            }
+            Console.WriteLine("=====================================================");
+            //Continue with While
+            int j = 0;
+            while (j < n)
+            {
+                if (j%2 == 0)
+                {
+                    j++;
+                    continue;
+                }
+                Console.WriteLine(j);
+                j++;
             }
             Console.ReadKey();
         }
