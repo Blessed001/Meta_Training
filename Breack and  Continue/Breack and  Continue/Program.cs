@@ -31,7 +31,7 @@ namespace Breack_and__Continue
             int j = 0;
             while (j < n)
             {
-                if (j%2 == 0)
+                if (j % 2 == 0)
                 {
                     j++;
                     continue;
